@@ -1,0 +1,1 @@
+print(sum(["abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".index((set(s[:len(s)//2])&set(s[len(s)//2:])).pop())+1 for s in map(lambda x: x.strip(), open("input.txt"))]))
