@@ -1,0 +1,1 @@
+print(sum(["abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".index((set(a)&set(b)&set(c)).pop())+1 for [a, b, c] in [*map(lambda x: zip(x[0::3], x[1::3], x[2::3]), [''.join([*open('input.txt')]).strip().split('\n')])][0]]))
