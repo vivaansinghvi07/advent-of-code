@@ -1,0 +1,1 @@
+print(sum([int(a<=x and b>=y or a>=x and b<=y) for [(a, b), (x, y)] in map(lambda x: list(map(lambda y: tuple(map(int, y.split('-'))), x.split(','))), [*open("input.txt")])]))
