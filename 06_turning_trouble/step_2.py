@@ -1,0 +1,1 @@
+print(min([i + 14 for i in range(len([*open("input.txt")][0])) if len(set([*open("input.txt")][0][i:i+14])) == 14]))
