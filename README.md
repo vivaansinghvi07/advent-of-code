@@ -4,4 +4,5 @@ Solutions for the Advent of Code! Trying to solve it in as little code as possib
 ## Lines Used:
 
 - 1: 10 problems
-- 6: 3 problems
+- 4: 1 problem
+- 6: 2 problems
