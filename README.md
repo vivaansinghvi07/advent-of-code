@@ -30,4 +30,5 @@ Running `$ python3 count_lines.py` displays the line counts in each script. Here
     step_2: 1
 18_boiling_boulders:
     step_1: 4
+    step_2: 7
 ```
