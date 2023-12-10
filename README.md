@@ -10,6 +10,7 @@ Rules:
 Running `$ python3 count_lines.py` displays the line counts in each script. Here is an up-to-date count:
 
 ```
+2022:
 01_calorie_counting:
     step_1: 1
     step_2: 1
@@ -31,4 +32,9 @@ Running `$ python3 count_lines.py` displays the line counts in each script. Here
 18_boiling_boulders:
     step_1: 4
     step_2: 7
+
+2023:
+09_mirage_maintanence:
+    step_1: 2
+    step_2: 2
 ```
