@@ -1,2 +1,1 @@
-def handle_diffs(l: list[int]) -> int: return 0 if not any(l) else l[0] - handle_diffs([j-i for i,j in zip(l, l[1:])])
-print(sum([handle_diffs(l) for l in map(lambda x: list(map(int, x.split())), open("input.txt"))]))
+print(sum([(f := lambda x: 0 if not any(x) else x[0] - f([j-i for i, j in zip(x, x[1:])]))(l) for l in map(lambda x: list(map(int, x.split())), open("input.txt"))]))

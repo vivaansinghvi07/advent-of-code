@@ -41,6 +41,6 @@ Running `$ python3 count_lines.py` displays the line counts in each script. Here
     step_1: 1
     step_2: 1
 09_mirage_maintanence:
-    step_1: 2
-    step_2: 2
+    step_1: 1
+    step_2: 1
 ```
